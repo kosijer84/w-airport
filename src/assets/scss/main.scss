@@ -1,7 +1,30 @@
 $theme-colors: (
-        "primary":   lime,
-        "secondary": #a0b0d9,
+        "primary": #272727,
+        "secondary": #01b5e6,
 );
 
 @import 'bootstrap/scss/bootstrap.scss';
 
+//atoms
+@import "atoms/a-font";
+@import "atoms/a-btn";
+@import "atoms/a-social-icons";
+
+//molecules
+@import "molecules/m-header";
+@import "molecules/m-footer";
+@import "molecules/m-parking-plan";
+
+//organisms
+@import "organisms/o-navbar";
+@import "organisms/o-booking-frame";
+@import "organisms/o-parking-options";
+@import "organisms/o-parking-places";
+@import "organisms/o-planner-faq";
+
+//pages
+@import "pages/p-home";
+
+body {
+  background: $gray-100;
+}

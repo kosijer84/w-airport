@@ -1,0 +1,15 @@
+.o-booking {
+
+  &-frame {
+    padding: 65px 0;
+
+    .btn {
+      width: 100%;
+    }
+  }
+
+  &-title {
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+}
