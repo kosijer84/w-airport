@@ -1,0 +1,59 @@
+.m-header {
+  position: relative;
+
+  .fa-parking {
+    position: absolute;
+    top: 55px;
+    right: 140px;
+    font-size: 200px;
+    color: $gray-100;
+    transform: rotate(15deg);
+  }
+
+  &-content {
+    position: relative;
+    margin: 70px 0 45px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      position: relative;
+      font-size: 48px;
+      font-weight: bold;
+
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 120px;
+        height: 4px;
+        background: theme-color('secondary');
+      }
+    }
+
+    p {
+      font-size: 32px;
+      margin-top: 20px;
+    }
+
+    @include media-breakpoint-up(md) {
+
+      h1 {
+        font-size: 70px;
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      margin: 100px 0 45px 0;
+    }
+  }
+
+  img {
+    width: 100%;
+    max-width: 530px;
+  }
+}

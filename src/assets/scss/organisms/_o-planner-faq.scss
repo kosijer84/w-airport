@@ -1,0 +1,22 @@
+.o-planner-faq {
+  padding: 25px 0;
+
+  .card {
+    border-radius: 0;
+
+    &-title {
+      font-weight: 900;
+    }
+  }
+
+  .faq {
+    display: flex;
+    align-items: flex-start;
+
+    &-letter {
+      color: $gray-500;
+      margin-right: 15px;
+      font-weight: 700;
+    }
+  }
+}
