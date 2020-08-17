@@ -1,6 +1,7 @@
 <template>
   <div class="m-header">
     <i class="fas fa-parking"></i>
+    <i class="fas fa-car"></i>
     <div class="m-header-content">
       <h1>{{title}}</h1>
       <p>{{text}}</p>

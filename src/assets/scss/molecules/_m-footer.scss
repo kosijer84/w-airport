@@ -9,6 +9,13 @@
     text-transform: uppercase;
   }
 
+  a {
+
+    &:hover {
+      color: theme-color('secondary');
+    }
+  }
+
   &-notice {
     margin-bottom: 0;
 
