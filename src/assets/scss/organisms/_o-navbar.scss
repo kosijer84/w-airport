@@ -1,16 +1,24 @@
 .o-navbar {
   background: $white;
 
-  .navbar-brand {
-    text-transform: uppercase;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
+  .navbar {
 
-    img {
-      width: 100%;
-      max-width: 25px;
-      margin-right: 10px;
+    &-brand {
+      text-transform: uppercase;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 100%;
+        max-width: 25px;
+        margin-right: 10px;
+      }
+    }
+
+    &-toggler-icon {
+      display: flex;
+      align-items: center;
     }
   }
 

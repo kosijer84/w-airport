@@ -1,5 +1,12 @@
 .a-social-icons {
 
+  a {
+
+    &:hover {
+      color: theme-color('secondary');
+    }
+  }
+
   i {
     font-size: 24px;
   }

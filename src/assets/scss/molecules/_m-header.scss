@@ -1,13 +1,41 @@
 .m-header {
   position: relative;
 
-  .fa-parking {
+  .fas {
     position: absolute;
-    top: 55px;
-    right: 140px;
-    font-size: 200px;
-    color: $gray-100;
+    font-size: 100px;
+    color: $gray-200;
     transform: rotate(15deg);
+
+    @include media-breakpoint-up(md) {
+      font-size: 160px;
+    }
+  }
+
+  .fa {
+
+    &-parking {
+      top: 35px;
+      right: 100px;
+    }
+
+    &-car {
+      top: 120px;
+      left: 25px;
+    }
+
+    @include media-breakpoint-up(md) {
+
+      &-parking {
+        top: 35px;
+        right: 30px;
+      }
+
+      &-car {
+        top: 120px;
+        left: 15px;
+      }
+    }
   }
 
   &-content {
@@ -53,7 +81,9 @@
   }
 
   img {
+    position: relative;
     width: 100%;
     max-width: 530px;
+    z-index: 9;
   }
 }

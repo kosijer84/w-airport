@@ -1,9 +1,10 @@
 <template>
   <div class="col-lg-4"
-       v-for="(box, index) in parkingBoxes"
+       v-for="(box, index) in parkingPlaces"
        :key="index"
   >
-    <div class="card mb-3 mb-lg-0">
+    <div class="card card-title-sm mb-3 mb-lg-0 border-0"
+    >
       <img v-if="(box.imgCover)"
            :src="(box.imgCover)"
            class="card-img-top"
@@ -23,24 +24,21 @@
 
       return {
 
-        parkingBoxes: [
+        parkingPlaces: [
           {
-            imgCover: require("../assets/images/cover-budget.png"),
-            title: 'Budget Parking',
+            title: 'Special parking facilities',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ' +
                 'labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ' +
                 'laboris nisi.'
           },
           {
-            imgCover: require("../assets/images/cover-budget.png"),
-            title: 'Terminal Parking',
+            title: 'Get & Bring',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ' +
                 'labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ' +
                 'laboris nisi.'
           },
           {
-            imgCover: require("../assets/images/cover-budget.png"),
-            title: 'Premium Parking',
+            title: 'Parking at the Visitors Park',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ' +
                 'labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ' +
                 'laboris nisi.'
@@ -59,6 +57,15 @@
     &-title {
       font-weight: 700;
     }
+
+    &-title-sm {
+      background: transparent;
+
+      .card-title {
+        font-size: 16px;
+      }
+    }
   }
 
 </style>
+<!-- Add "scoped" attribute to limit CSS to this component only -->

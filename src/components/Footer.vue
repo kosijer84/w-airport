@@ -31,16 +31,9 @@
         <p><a href="javascript:void(0)">consectur</a></p>
       </div>
       <div class="col-lg-6 col-xl-2">
-        <h5 class="footer-title">Contact us</h5>
-        <form>
-          <div class="form-group">
-            <input type="email" class="form-control" id="mail" placeholder="Your E-Mail">
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" id="message" placeholder="Your Message">
-          </div>
-          <button type="submit" class="btn btn-secondary a-btn w-100">Send</button>
-        </form>
+
+        <ContactForm/>
+
       </div>
     </div>
 
@@ -54,8 +47,14 @@
   </div>
 </template>
 <script>
+
+  import ContactForm from '@/components/ContactForm.vue'
+
   export default {
 
+    components: {
+      ContactForm
+    },
 
     mounted () {
 
