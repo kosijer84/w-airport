@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["flying"],{ec68:function(e,t,c){"use strict";c.r(t);var n=c("5c40"),a={class:"container text-center"},i={class:"row"},s={class:"col-12"};function r(e,t){var c=Object(n["y"])("Header");return Object(n["t"])(),Object(n["e"])("div",a,[Object(n["k"])("div",i,[Object(n["k"])("div",s,[Object(n["k"])(c,{title:"This is an flying page",text:"Teasing the parking subject."})])])])}var o=c("0418"),b={name:"Home",components:{Header:o["a"]}};b.render=r;t["default"]=b}}]);
+//# sourceMappingURL=flying.cd78e481.js.map

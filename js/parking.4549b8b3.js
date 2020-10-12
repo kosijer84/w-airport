@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["parking"],{af3e:function(e,t,a){"use strict";a.r(t);var n=a("5c40"),c={class:"container text-center"},r={class:"row"},i={class:"col-12"};function s(e,t){var a=Object(n["y"])("Header");return Object(n["t"])(),Object(n["e"])("div",c,[Object(n["k"])("div",r,[Object(n["k"])("div",i,[Object(n["k"])(a,{title:"This is an parking page",text:"Teasing the parking subject."})])])])}var o=a("0418"),p={name:"Home",components:{Header:o["a"]}};p.render=s;t["default"]=p}}]);
+//# sourceMappingURL=parking.4549b8b3.js.map
